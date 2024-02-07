@@ -1,4 +1,4 @@
-//import './Skills.css'
+import './Skills.css'
 
 import { ReactComponent as CsSvg } from '../images/c#.svg';
 import { ReactComponent as CppIcon } from '../images/c++_icon.svg';

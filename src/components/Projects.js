@@ -1,4 +1,4 @@
-//import './Projects.css';
+import './Projects.css';
 
 import WateredDownIcon from '../images/WateredDownIcon.png';
 import CheckersIcon from '../images/CheckersIcon.png';

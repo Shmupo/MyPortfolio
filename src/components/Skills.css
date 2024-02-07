@@ -1,0 +1,22 @@
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgb(225, 131, 44);
+    margin: 5rem auto 5rem auto;
+    max-width: 50rem;
+    border-radius: 25% 5%;
+    border: solid 3px white;
+}
+
+.icons > svg,
+.icons > img {
+    margin: 2rem 5rem 2rem 5rem;
+    cursor: pointer;
+    max-height: 6rem;
+    max-width: 6rem;
+}
+
+.python {
+    transform: scale(1.5)
+}

@@ -1,0 +1,43 @@
+.home-link {
+    text-decoration: none;
+}
+
+.bar-contents {
+    display: flex;
+    align-items: center;
+    background-color: rgb(49, 49, 49);
+    height: 100%;
+    width: 100%;
+    padding-right: 2rem;
+}
+
+.bar-contents a {
+    margin-left: 2rem;
+    color: var(--main-text-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: var(--main-header-text-color);
+}
+
+.bar {
+    display: flex;
+    align-items: center;
+    background-color: rgb(86, 86, 86);
+    height: 4rem;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+.nav-title {
+    color: rgb(255, 216, 0);
+    margin: 1rem 2rem 1rem 2rem;
+}
+
+.spacer {
+    content: "";
+    width: 2rem;
+}

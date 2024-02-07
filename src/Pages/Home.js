@@ -1,4 +1,4 @@
-//import './Home.css';
+import './Home.css';
 
 import Projects from '../components/Projects' 
 import Skills from '../components/Skills'
@@ -14,10 +14,10 @@ function Home() {
                     <p className='description'></p>
                 </div>
             </div>
-            <section>
+            <div>
                 <Skills />
                 <Projects />
-            </section>
+            </div>
         </div>
     );
 }
