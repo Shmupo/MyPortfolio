@@ -1,7 +1,7 @@
 //import './Home.css';
 
-//import Projects from '../components/Projects' 
-//import Skills from '../components/Skills'
+import Projects from '../components/Projects' 
+import Skills from '../components/Skills'
 
 function Home() {
     return (
@@ -15,6 +15,8 @@ function Home() {
                 </div>
             </div>
             <section>
+                <Skills />
+                <Projects />
             </section>
         </div>
     );
