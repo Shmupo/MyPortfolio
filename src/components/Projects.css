@@ -9,8 +9,8 @@
 }
 
 .projects-container {
-    max-width: 1300px;
-    width: 80%;
+    max-width: 1200px;
+    width: 75%;
     padding: 0 auto 0 auto;
     display: block;
     margin: 2% auto 2% auto;
@@ -46,28 +46,29 @@ article p, article h2 {
 }
 
 .project-link {
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 3rem;
+    background-color: red;
+    width: 80%;
 }
 
 .project-button {
     background-color: gold;
-    border: none;
     padding: 5px;
+    cursor: pointer;
+    border: 2px rgb(103, 74, 20) solid;
+    font-size: 15px;
+    float: right;
 }
 
 .description {
-    min-height: 11rem;
-    padding-top: 1rem;
     font-size: 20px;
     letter-spacing: 0.5px;
+    height: 10rem;
 }
 
 .block {
     height: auto;
     min-height: 22rem;
-    max-width: 600px;
+    max-width: 500px;
     background-color: rgb(225, 131, 44);
     margin: 2rem 0 2rem 0;
     border: solid 3px white;
@@ -82,7 +83,7 @@ article p, article h2 {
 }
 
 .reverse {
-    margin-right: 0;
+    margin-right: 2rem;
     margin-left: 0;
     border-radius: 0% 20% 20% 0%;
 }
@@ -92,8 +93,8 @@ article p, article h2 {
     margin-right: 0;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1400px) {
     .description {
-        font-size: 15px;
+        font-size: 16px;
     }
 }
