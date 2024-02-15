@@ -5,7 +5,7 @@ import Pdf from '../images/Resume.pdf'
 function PortfolioNavBar() {
   return (
     <div className='bar'>
-      <a href='/' className='home-link'><h1 className='nav-title'>Portfolio</h1></a>
+      <a href='/MyPortfolio/' className='home-link'><h1 className='nav-title'>Portfolio</h1></a>
       <nav className='bar-contents'>
         <AnchorLink offset='50' href='#skills'><span>.01</span> Skills</AnchorLink>
         <AnchorLink offset='50' href='#projects' ><span>.02</span> Projects</AnchorLink>
