@@ -78,7 +78,7 @@ function Projects() {
                         Written in python using spaCy and pandas, uses natural language processing to retrieve the 
                         most common words and subject-adjective pairs used to describe a game from steam reviews.
                         </p>
-                        <form action='https://github.com/Shmupo/PacManPygame' target='_blank' class='project-link'>
+                        <form action='https://github.com/Shmupo/SteamReviewCruncher' target='_blank' class='project-link'>
                             <input type='submit' value='View Project' className='project-button' />
                         </form>
                     </article>
