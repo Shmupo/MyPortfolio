@@ -6,12 +6,13 @@
     display: flex;
     align-items: center;
     background-color: rgb(49, 49, 49);
-    height: 100%;
+    height: calc(100% - 1rem);
     width: 100%;
-    padding-right: 2rem;
+    padding-bottom: 1rem;
 }
 
 .bar-contents a {
+    margin-top: 1rem;
     margin-left: 2rem;
     color: var(--main-text-color);
     text-decoration: none;
@@ -30,6 +31,8 @@ nav a:hover {
     position: fixed;
     width: 100%;
     z-index: 99;
+    margin-top: -2rem;
+    padding-top: 2rem;
 }
 
 .nav-title {

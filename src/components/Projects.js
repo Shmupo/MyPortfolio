@@ -3,10 +3,12 @@ import './Projects.css';
 import WateredDownIcon from '../images/WateredDownIcon.png';
 import CheckersIcon from '../images/CheckersIcon.png';
 import PacMoonIcon from '../images/PacMoonIcon.png';
+import SteamReviewCruncherIcon from '../images/SteamReviewCruncherIcon.png';
 
 import WDGif from '../gifs/WateredDown.gif';
 import CheckersGif from '../gifs/Checkers.gif';
 import PacmoonGif from '../gifs/PacMoon.gif';
+import SteamReviewImg from '../images/SteamReviewCruncher.png';
 
 function Projects() {
     return (
@@ -16,7 +18,7 @@ function Projects() {
                 <div className='project-row'>
                     <article id='WateredDownBlock' className='block'>
                         <div className='project-header'>
-                            <img src={WateredDownIcon} className='project-image' />
+                            <img src={WateredDownIcon} className='project-image' alt="WateredDown icon." />
                             <h2>Watered Down</h2>
                         </div>
                         <p className='description'>
@@ -28,14 +30,14 @@ function Projects() {
                             <input type='submit' value='View Project' className='project-button' />
                         </form>
                     </article>
-                    <img src={WDGif} className='project-gif' />
+                    <img src={WDGif} className='project-gif' alt="Gif of WateredDown demo." />
                 </div>
                 
                 <div className='project-row hide-left' >
-                    <img src={CheckersGif} className='project-gif hug-right' />
+                    <img src={CheckersGif} className='project-gif hug-right' alt="Gif of Checkers demo." />
                     <article id='CheckersBlock' className='reverse block'>
                         <div className='project-header'>
-                            <img src={CheckersIcon} className='project-image' />
+                            <img src={CheckersIcon} className='project-image' alt="Checkers icon." />
                             <h2>Checkers</h2>
                         </div>
                         <p className='description'>
@@ -51,7 +53,7 @@ function Projects() {
                 <div className='project-row'>
                     <article id='PacMoonBlock' className='block'>
                     <div className='project-header'>
-                            <img src={PacMoonIcon} className='project-image' />
+                            <img src={PacMoonIcon} className='project-image' alt="PacMoon icon." />
                             <h2>PacMoon</h2>
                         </div>
                         <p className='description'>
@@ -62,8 +64,26 @@ function Projects() {
                             <input type='submit' value='View Project' className='project-button' />
                         </form>
                     </article>
-                    <img src={PacmoonGif} className='project-gif' />
+                    <img src={PacmoonGif} className='project-gif' alt="Gif of Pacmoon Demo"/>
                 </div>
+
+                <div className='project-row hide-left' >
+                    <img src={SteamReviewImg} className='project-gif hug-right' alt="Steam Review Cruncher Demo"/>
+                    <article id='ReviewsBlock' className='reverse block'>
+                        <div className='project-header'>
+                            <img src={SteamReviewCruncherIcon} className='project-image' alt="Steam review cruncher icon." />
+                            <h2>Steam Review Cruncher</h2>
+                        </div>
+                        <p className='description'>
+                        Written in python using spaCy and pandas, uses natural language processing to retrieve the 
+                        most common words and subject-adjective pairs used to describe a game from steam reviews.
+                        </p>
+                        <form action='https://github.com/Shmupo/PacManPygame' target='_blank' class='project-link'>
+                            <input type='submit' value='View Project' className='project-button' />
+                        </form>
+                    </article>
+                </div>
+
             </section>
         </div>
     );

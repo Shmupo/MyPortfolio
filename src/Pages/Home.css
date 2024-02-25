@@ -1,8 +1,8 @@
 .intro {
-    display: flex;
-    height: 105vh;
+    padding-left: 50%;
+    height: 102vh;
     background-image: linear-gradient(
-        45deg, 
+        90deg, 
         black 0%, 
         #303030 50%,
         rgb(221, 180, 0) 50%, 
@@ -10,29 +10,44 @@
     margin-bottom: -2rem;
 }
 
-.name {
-    font-weight: bold;
-    padding-right: 6rem;
+.home-name {
+    font-size: 64px;
     color: black;
+    font-family: sans-serif;
+    margin: 0;
 }
 
 .role {
-    font-weight: bold;
-    margin-top: 1rem;
-    padding-left: 5rem;
     color: rgb(0, 20, 175)
 }
 
-.left-half {
-    width: 50%;
-}
-
-.right-half {
+.intro-content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    width: 50%;
-    text-align: left;
-    padding-left: 5rem;
+    align-items: left;
+    justify-content: flex-start;
+    padding-left: 2rem;
+    padding-top: 35vh; 
+}
+
+.in-line {
+    display: inline;
+}
+
+.intro-text {
+    color: rgb(77, 77, 77);
+    font-weight: bold;
+    margin: 0;
+}
+
+.intro-text:last-of-type {
+    margin-top: 1rem;
+}
+
+.greeting {
+    font-size: 24px;
+}
+
+.welcome {
+    font-size: 24px;
 }

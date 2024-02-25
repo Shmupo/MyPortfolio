@@ -46,8 +46,8 @@ article p, article h2 {
 }
 
 .project-link {
-    background-color: red;
     width: 80%;
+    padding-bottom: 3rem;
 }
 
 .project-button {
@@ -69,17 +69,17 @@ article p, article h2 {
     height: auto;
     min-height: 22rem;
     max-width: 500px;
-    background-color: rgb(225, 131, 44);
     margin: 2rem 0 2rem 0;
-    border: solid 3px white;
-    border-radius: 20% 0% 0% 20%;
 }
 
 .project-gif {
     position: relative;
+    max-width: 42rem;
+    object-fit: contain;
     height: 22rem;
     margin: auto 0 auto 0;
     image-rendering: pixelated;
+    background-color: rgb(75, 75, 75);
 }
 
 .reverse {

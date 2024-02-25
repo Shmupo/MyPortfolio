@@ -1,10 +1,11 @@
 .EndPage {
     height: 25rem;
     width: 100%;
-    background-color: rgb(163, 163, 163);
+    background-color: rgb(47, 46, 57);
     display: flex;
     word-break: break-word;
     padding-bottom: 4rem;
+    border-top: 2px solid white;
 }
 
 .end-contents {
@@ -19,7 +20,7 @@
 }
 
 .contact-box {
-    background-color: gray;
+    background-color: rgb(64, 70, 110);
     padding: 2rem;
     border: 4px white solid;
 }
@@ -29,6 +30,13 @@
     letter-spacing: 0.75px;
     color: black;
     margin-left: 2rem;
+    height: 2.5rem;
+    width: 6rem;
+    font-size: 24px;
+}
+
+.git:hover {
+    color: white;
 }
 
 .email-header {
@@ -48,27 +56,17 @@
     margin-top: -1rem;
 }
 
-.git {
-    height: 2.5rem;
-    width: 6rem;
-    font-size: 24px;
-}
-
-.contact-head {
-    margin-top: -1rem;
-}
-
 .react-link {
     color: rgb(117, 183, 205);
     font-weight: bold;
 }
 
 .react-link:hover {
-    color: black;
+    color: white;
 }
 
 .creation-info {
-    background-color: gray;
+    background-color: rgb(64, 70, 110);
     padding: 2rem;
     border: 4px white solid;
 }
