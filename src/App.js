@@ -1,7 +1,7 @@
 //import './App.css';
 import PortfolioNavBar from './components/PortfolioNavBar';
 import PageEnd from './components/PageEnd';
-import Home from './pages/Home';
+import Home from './Pages/Home';
 
 function App() {
   return (
