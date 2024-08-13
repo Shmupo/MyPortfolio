@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.1fad5853.css",
-    "main.js": "/MyPortfolio/static/js/main.654cf7ec.js",
-    "static/js/592.8b4b9b13.chunk.js": "/MyPortfolio/static/js/592.8b4b9b13.chunk.js",
+    "main.js": "/MyPortfolio/static/js/main.fcf83e85.js",
     "static/media/PacMoon.gif": "/MyPortfolio/static/media/PacMoon.a5c918e8c047b864e25d.gif",
     "static/media/Checkers.gif": "/MyPortfolio/static/media/Checkers.b0aeec2122c1d47a8a25.gif",
     "static/media/WateredDown.gif": "/MyPortfolio/static/media/WateredDown.ed50277f513dd9c637c8.gif",
@@ -11,16 +10,18 @@
     "static/media/css5_icon.png": "/MyPortfolio/static/media/css5_icon.02d225c7df0b28341d8d.png",
     "static/media/Resume.pdf": "/MyPortfolio/static/media/Resume.388799ee5fb0b41a028c.pdf",
     "static/media/SteamReviewCruncher.png": "/MyPortfolio/static/media/SteamReviewCruncher.a337f0fa3ed931f355d2.png",
+    "static/media/react_icon.svg": "/MyPortfolio/static/media/react_icon.22a05374f4eefdd120b71df3f98d68a1.svg",
+    "static/media/java.svg": "/MyPortfolio/static/media/java.5e8cb917c7f11276e9f9d00d4dce53b5.svg",
     "static/media/c\u0000#.svg": "/MyPortfolio/static/media/c#.04d9d2bb18b9781567f7340691dcc686.svg",
     "static/media/python_icon.svg": "/MyPortfolio/static/media/python_icon.b88fbbbfe6ac770a10a55000e8978bc4.svg",
     "static/media/c++_icon.svg": "/MyPortfolio/static/media/c++_icon.21a8fab81e76bf019238a55c1c88198c.svg",
+    "static/media/javascript-js.svg": "/MyPortfolio/static/media/javascript-js.63b93412a24001eff2acc22e0cb40276.svg",
     "index.html": "/MyPortfolio/index.html",
     "main.1fad5853.css.map": "/MyPortfolio/static/css/main.1fad5853.css.map",
-    "main.654cf7ec.js.map": "/MyPortfolio/static/js/main.654cf7ec.js.map",
-    "592.8b4b9b13.chunk.js.map": "/MyPortfolio/static/js/592.8b4b9b13.chunk.js.map"
+    "main.fcf83e85.js.map": "/MyPortfolio/static/js/main.fcf83e85.js.map"
   },
   "entrypoints": [
     "static/css/main.1fad5853.css",
-    "static/js/main.654cf7ec.js"
+    "static/js/main.fcf83e85.js"
   ]
 }
