@@ -10,7 +10,6 @@ function PortfolioNavBar() {
         <AnchorLink offset='50' href='#skills'><span>.01</span> Skills</AnchorLink>
         <AnchorLink offset='50' href='#projects' ><span>.02</span> Projects</AnchorLink>
         <AnchorLink offset='50' href='#ContactInfo' ><span>.03</span> Contact</AnchorLink>
-        <a href= {Pdf}>Resume</a>
       </nav>
       <div className='spacer'></div>
     </div>
